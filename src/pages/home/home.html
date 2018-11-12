@@ -1,14 +1,109 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
+    <ion-navbar>
+      <ion-title>Mapa</ion-title>
+    </ion-navbar>
+  
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+<ion-content>
+    <ion-scroll scrollX="true" scrollY="true" style="width:100%; height:100%" >
+
+
+    <ion-fab bottom right id="leao">
+        <button ion-fab>Leão</button>
+        <ion-fab-list side="right">
+          <ion-card>
+            <img src="../../assets/imgs/leao.jpg" width="200px">
+
+            <ion-card-content>
+                <ion-card-title>
+                  Felinos
+                </ion-card-title>
+                <p>
+                  Os felinos são a principal atração do Zoo
+                </p>
+            </ion-card-content>
+          </ion-card>
+        </ion-fab-list>
+      </ion-fab>
+
+      <ion-fab top right id="praca">
+          <button ion-fab>Praça</button>
+          <ion-fab-list side="right">
+            <ion-card>
+              <img src="../../assets/imgs/praca.jpg" width="200px">
+  
+              <ion-card-content>
+                  <ion-card-title>
+                    Praça de alimentação
+                  </ion-card-title>
+                  <p>
+                    Venha saborear nossos deliciosos pratos
+                  </p>
+              </ion-card-content>
+            </ion-card>
+          </ion-fab-list>
+        </ion-fab>
+
+        <ion-fab top right id="elefantes">
+            <button ion-fab>elef.</button>
+            <ion-fab-list side="right">
+              <ion-card>
+                <img src="../../assets/imgs/elefantes.jpg" width="200px">
+    
+                <ion-card-content>
+                    <ion-card-title>
+                      Elefantes
+                    </ion-card-title>
+                    <p>
+                      Temos grandes elefantes
+                    </p>
+                </ion-card-content>
+              </ion-card>
+            </ion-fab-list>
+          </ion-fab>
+
+          <ion-fab name="botao" top right id="aves">
+              <button ion-fab>Aves</button>
+              <ion-fab-list side="right">
+                <ion-card>
+                  <img src="../../assets/imgs/aves.jpg" width="200px">
+      
+                  <ion-card-content>
+                      <ion-card-title>
+                        Aves
+                      </ion-card-title>
+                      <p>
+                        Temos grandes aves
+                      </p>
+                  </ion-card-content>
+                </ion-card>
+              </ion-fab-list>
+            </ion-fab>
+
+            <ion-fab top right name="botao" id="macacos">
+                <button ion-fab>Macacos</button>
+                <ion-fab-list side="right">
+                  <ion-card>
+                    <img src="../../assets/imgs/macaco.jpg" width="200px">
+        
+                    <ion-card-content>
+                        <ion-card-title>
+                          Macacos
+                        </ion-card-title>
+                        <p>
+                          Temos grandes macacos
+                        </p>
+                    </ion-card-content>
+                  </ion-card>
+                </ion-fab-list>
+              </ion-fab>
+
+
+
+
+    
+      <div><img src="../../assets/imgs/map.jpeg"></div>
+  </ion-scroll>
 </ion-content>

@@ -1,3 +1,37 @@
 page-home {
 
+    img{
+        max-width: 1200px;
+        overflow-x: visible; 
+    }
+    /*ion-scroll{
+        overflow: scroll; 
+        white-space: nowrap;
+      }*/
+    
+    ion-fab{
+        top: 330px;
+        left: 200px;
+    }
+    #praca{
+        top: 200px;
+        left: 390px;
+    }
+    #macacos{
+        top: 450px;
+        left: 280px;
+    }
+
+    #aves{
+        top: 410px;
+        left: 520px;
+    }
+
+    #elefantes{
+        top: 200px;
+        left: 800px;
+    }
+
+
+    
 }
